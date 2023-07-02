@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Crud persona</title>
+    </head>
+    <body>
+        <div id="contenedorAlta">
+            <h1>Agregar persona</h1>
+           
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="txtNombre" />
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="txtApellido" />
+                <input type="button" value="Agregar persona" id="btnAgregarPersona"/>
+            
+        </div>
+
+        <div id="contenedoPersonas">
+            <h1>Lista</h1>
+            <table style="border: 1px solid black" id="tablaPersonas">
+                
+                <tr>
+                    <th>ID</th>
+                    <th>NOMBRE</th>
+                    <th>APELLIDO</th>
+                    <th>OPCIONES</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Gustavo</td>
+                    <td>Silva</td>
+                    <td>
+                        <a href="editar.html">EDITAR</a>
+                        <a href="#">ELIMINAR</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Juan</td>
+                    <td>Ruiz</td>
+                    <td>
+                        <a href="editar.html">EDITAR</a>
+                        <a href="#">ELIMINAR</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Belen</td>
+                    <td>Martinez</td>
+                    <td>
+                        <a href="editar.html">EDITAR</a>
+                        <a href="#">ELIMINAR</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Pedro</td>
+                    <td>Mercado</td>
+                    <td>
+                        <a href="editar.html">EDITAR</a>
+                        <a href="#">ELIMINAR</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+        <script src="agregarPersona.js"></script>
+    </body>
+</html>

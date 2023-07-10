@@ -6,7 +6,8 @@ const app = express();
 const port = 3000;
 
 // Configuración de la conexión a MongoDB
-const uri = "mongodb://localhost:27017";
+// const uri = "mongodb://localhost:27017";
+const uri = "mongodb+srv://gustavosilvaartaza:GWuAlekZVk0Wqrfn@cluster0.hrtiwok.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri);
 
 async function startServer() {
